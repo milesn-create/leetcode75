@@ -1,6 +1,6 @@
 package array_string
 
-func gcdOfStrings(str1 string, str2 string) string {
+func GcdOfStrings(str1 string, str2 string) string {
 	if str1+str2 != str2+str1 {
 		return ""
 	}
