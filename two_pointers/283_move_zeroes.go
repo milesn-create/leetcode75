@@ -1,4 +1,4 @@
-package twopointers
+package two_pointers
 
 func MoveZeroes(nums []int) {
 	read, write := 0, 0
