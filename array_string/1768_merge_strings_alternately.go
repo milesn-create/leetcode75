@@ -4,7 +4,7 @@ import (
 	"strings"
 )
 
-func mergeAlternately(word1 string, word2 string) string {
+func MergeAlternately(word1 string, word2 string) string {
 	var sb strings.Builder
 	l1 := len(word1)
 	l2 := len(word2)
